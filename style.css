@@ -105,11 +105,7 @@ a:hover {
 
 .menu {
   float: right;
-  position: relative;
-
-  cursor: pointer;
 }
-
 
 /* -------- Decoration -------- */
 
@@ -133,8 +129,7 @@ a:hover {
   line-height: 48px;
 }
 
-.header a,
-.menu li {
+.header a {
   display: block;
   padding: 0 20px;
 
@@ -144,8 +139,7 @@ a:hover {
   text-decoration: none;
 }
 
-.header a:hover,
-.menu li:hover {
+.header a:hover {
   background-color: #000;
 }
 
